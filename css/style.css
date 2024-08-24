@@ -137,7 +137,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: #ddd8d8;
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -145,8 +145,8 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-  color: var(--primary) !important;
-  border-color: var(--primary) !important;
+  color: #0d4b97 !important;
+  border-color: #0d4b97 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -189,7 +189,7 @@ h6,
     height: 2px;
     bottom: -1px;
     left: 50%;
-    background: var(--primary);
+    background: #1261c2;
     transition: 0.5s;
   }
 
@@ -404,4 +404,17 @@ h6,
 
 .display-none {
   display: none;
+}
+
+.bg-primary {
+  background: #1b62b8 !important;
+}
+
+.text-primary {
+  color: #1b62b8 !important;
+}
+
+.btn-primary {
+  background: #0d4b97 !important;
+  border: 1px solid #0d4b97 !important;
 }
