@@ -3951,6 +3951,14 @@ fieldset:disabled .btn {
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .navbar-dark .navbar-nav .show > .nav-link,
+  .navbar-dark .navbar-nav .nav-link.active {
+    color: var(--bs-cyan);
+    font-weight: bold;
+  }
+}
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
   border-color: rgba(255, 255, 255, 0.1);
