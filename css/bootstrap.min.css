@@ -3955,7 +3955,7 @@ fieldset:disabled .btn {
 @media (max-width: 768px) {
   .navbar-dark .navbar-nav .show > .nav-link,
   .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--bs-cyan);
+    color: #074086;
     font-weight: bold;
   }
 }
